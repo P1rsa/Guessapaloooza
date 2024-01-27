@@ -1,0 +1,12 @@
+#letter{
+    text-align: center;
+    width: 50px;
+}
+
+#empty{
+    font-size: 40px;
+}
+
+#guessedLetters{
+    margin-left: 10px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Letter!</title>
+    <link rel="stylesheet" href="./guess.css">
+    <link rel="stylesheet" href="./boot.css">
+</head>
+<body id="flash">
+    <div class="container-fluid">
+        <div class="row text-center">
+            <h1>Guess the Word!</h1>
+            <h3 id="category">Category: Sports!</h3>
+        </div>
+        <br>
+        <div class="row text-center">
+            <div class="col" id="empty"></div>
+        </div>
+        <br>
+        <div class="row text-center">
+            <div class="col">
+                <p>Guess a letter:</p>
+                <input type="text" id="letter" maxlength="1">
+                <br>
+                <br>
+                <button id="submit" class="btn btn-success">Submit</button>
+                <button id="skip" class="btn btn-danger">Skip</button>
+            </div>
+        </div>
+        <br>
+        <div class="row text-center">
+            <div class="col d-flex justify-content-center flex-column">
+                <div class="d-flex flex-row justify-content-center">
+                <h2>Letters Guessed:</h2>
+                <h2 id="guessedLetters"></h2>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <h2>Chances Left:</h2>
+                <h2 id="chances"></h2>
+            </div>
+            <h1 id="winLose"></h1>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="./guess.js"></script>
+</html>
